@@ -1,37 +1,38 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context=".SearchActivity">
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/etQuery"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_toLeftOf="@+id/btnSearch"
-        android:layout_toStartOf="@+id/btnSearch"
-        android:layout_alignBottom="@+id/btnSearch"
-        android:hint="@string/search_prompt" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/search_label"
-        android:id="@+id/btnSearch"
-        android:onClick="onImageSearch"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <GridView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:background="#FFF">
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/gvResults"
-        android:layout_below="@+id/etQuery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="34dp"
-        android:layout_marginStart="34dp"
-        android:numColumns="3" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        app:item_margin="5dp"
+        app:column_count="@integer/column_count"/>
+
+    <ImageView
+        android:id="@+id/ivPlaceholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/tvConnectionLost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection lost. Can't search right now..."
+        android:padding="20dp"
+        android:background="#aa0000"
+        android:textColor="#fff"
+        android:visibility="gone"/>
 </RelativeLayout>

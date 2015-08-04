@@ -9,25 +9,11 @@
         <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-d50023d8501f61475dbdd9c6c29fe4608166edc1.jar" />
     </item>
     <item
-        jar="/Users/laichi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-a4da6efac20f9c4f78108e26bfe95e4082506773.jar" />
-    </item>
-    <item
         jar="/Users/laichi/GridImageSearch/app/libs/android-async-http-1.4.8.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
         <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-806927fda468734abab74d4e65edd644089041fa.jar" />
-    </item>
-    <item
-        jar="/Users/laichi/GridImageSearch/app/libs/picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="23.0.0 rc3"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-99e8ddd6eaf3077d993b89f658a4e140fea5ea79.jar" />
     </item>
     <item
         jar="/Users/laichi/GridImageSearch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
@@ -37,11 +23,32 @@
         <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/classes-fa234f3236fb5352d50100c4043df654408a7234.jar" />
     </item>
     <item
+        jar="/Users/laichi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-a4da6efac20f9c4f78108e26bfe95e4082506773.jar" />
+    </item>
+    <item
         jar="/Users/laichi/GridImageSearch/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0 rc3"
         sha1="f8efd0096475e0daf054267b61544e10dc776503">
         <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/classes-1fda5c1e751fcc54201befb56b4f039b88baa054.jar" />
+    </item>
+    <item
+        jar="/Users/laichi/GridImageSearch/app/libs/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-99e8ddd6eaf3077d993b89f658a4e140fea5ea79.jar" />
+    </item>
+    <item
+        jar="/Users/laichi/GridImageSearch/app/build/intermediates/exploded-aar/com.etsy.android.grid/library/1.0.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="8218789edb56bdcfff7da48e892b37460fc707e2">
+        <dex dex="/Users/laichi/GridImageSearch/app/build/intermediates/pre-dexed/debug/classes-ca92f1b593c2c602565fdc1ac93c0ec28150cf61.jar" />
     </item>
 
 </items>

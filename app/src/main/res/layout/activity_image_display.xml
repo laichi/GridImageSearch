@@ -1,17 +1,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.laichi.gridimagesearch.activities.ImageDisplayActivity">
 
-    <ImageView
+    <com.example.laichi.gridimagesearch.models.TouchImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:id="@+id/ivImageResult"
+        android:src="@drawable/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tvZoomPercentage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:maxWidth="600dp"
-        android:scaleType="center"
-        android:adjustViewBounds="true"
-        android:id="@+id/ivImageResult"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
